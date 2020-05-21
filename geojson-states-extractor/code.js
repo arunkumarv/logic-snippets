@@ -1,4 +1,5 @@
 //'use strict';
+//Extract geojson for states from india geojson
 
 const fs = require('fs');
 
@@ -39,7 +40,7 @@ const states = [
     "Uttarakhand",
     "Uttar Pradesh",
     "West Bengal"
-]
+];
 out = {
     "type": "FeatureCollection",
     "features": []
